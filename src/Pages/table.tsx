@@ -2,10 +2,6 @@ import React, { useState, FunctionComponent, useEffect } from "react";
 import axios from "axios";
 import InputField from "../components/InputField";
 
-// type GetDataType = {
-//   count:
-// }
-
 const Table: FunctionComponent = () => {
   const [count, setCount] = useState<number>();
   const [categories, setCategories] = useState<string[]>([]);
